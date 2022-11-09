@@ -32,7 +32,14 @@ function addName() {
     editBtn.classList = "editBtn";
     editBtn.addEventListener("click", editValue);
  
-
+    // code for enter
+    document.querySelector("#addBtn").addEventListener('keypress', 
+    
+    function () {
+        if (("#addBtn") === 'Enter') {
+         
+        }
+    });
 
     //create delit btn
 
@@ -52,8 +59,8 @@ function addName() {
 
  
 
-    
-    if(nameList.childElementCount >= 5){
+    //
+    if(nameList.childElementCount === 8){
         document.querySelector("#addBtn").disabled = true;
       alert("LIMIT")
      } 
@@ -114,7 +121,7 @@ function addName() {
           
           
         }
-        
+        //del value
         function delValue(){
             this.parentNode.remove();
             document.querySelector("#addBtn").disabled = false;
