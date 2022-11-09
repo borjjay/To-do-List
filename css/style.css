@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+
+    background-color: rgba(2, 70, 70, 0.822);
+    color: white;
+    font-family: 'Lora', serif;
+    min-height: 100vh;
+}   
+h1{
+    font-size : 2.5rem;
+}
+
+h1 , form {
+
+    min-height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(38, 57, 77, 0.521) 0px 20px 30px -10px;
+}
+
+
+
+form input , form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border:none;
+    background-color: whitesmoke;
+}
+
+form button {
+    color: aqua;
+    background-color: white;
+    cursor: pointer;
+    transition:  all 0.3s ease;
+}
+
+form button:hover{
+    background-color: aqua;
+    color: white;
+}
+  
+#nameList{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border:none;
+    background: #B2B2B2;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgb(38,57, 77) 0px 20px 30px -10px;
+
+    
+}
+
+
+    
+
+
+
+.editBtn , .delBtn , .saveBtn{
+    width: 30px;
+    height: 20px;
+  
+    min-height: 50px;
+    padding-bottom: 15px;
+}
+
+.inputUi{
+    margin-top: 20px;
+    width: 500px;
+    min-height: 60px;
+}
